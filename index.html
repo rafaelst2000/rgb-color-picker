@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/responsivo.css">
+  <title>Color Picker</title>
+</head>
+<body>
+  <section class="introducao">
+    <div class="container">
+      <div class="box">
+        <div class="itens">
+          <div class="names">
+            <div class="names-group">
+              <p>(R) Vermelho</p>
+              <p>(G) Verde</p>
+              <p>(B) Azul</p>
+            </div>
+          </div>
+
+          <div class="ranges">
+            <div class="ranges-group">
+              <input oninput="change()" type="range" id="red" name="red" value="0"  min="0" max="255">
+              <input oninput="change()" type="range" id="green" name="green" value="0" min="0" max="255">
+              <input oninput="change()" type="range" id="blue" name="blue" value="0" min="0" max="255">  
+            </div>
+            
+          </div>
+
+          <div class="values">
+            <div class="values-group">
+              <input value="0" id="val1" disabled type="text">
+              <input value="0" id="val2" disabled type="text">
+              <input value="0" id="val3" disabled type="text">
+            </div>
+          </div>
+        </div>
+        <div class="color"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="titles">
+    <div class="container">
+      <div class="box2">
+        <h1>RGB Color Picker</h1>
+        <h2>By Rafael Souza Trevisan</h2>
+      </div> 
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

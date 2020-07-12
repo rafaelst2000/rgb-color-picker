@@ -1,0 +1,90 @@
+
+@media only screen and (min-width: 792px) and (max-width: 1330px) {
+.box{
+	width: 90%;
+}
+
+} 
+@media only screen and (max-width: 791px) {
+	.box{
+		width: 90%;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+	.itens{
+		height: 100%;
+		width: 100%;
+		display: inline-block;
+		border-style: none;
+	}
+	
+	.color{
+		height: 50px;
+		width: 100%;
+		background-color: red;
+		margin-top: -5px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+	}
+	
+	.names{
+		height: 100%;
+		width: 32%;
+		float: left;
+		margin-left: 10px;
+	}
+	
+	.names-group{
+		height: 50%;
+		margin-top: 45.5%;
+	}
+	
+	.names p{
+		font-size: 20px;
+		margin-top: 20px;
+	}
+	
+	.ranges{
+		height: 100%;
+		width: 40%;
+		float: left;
+		margin-left: 10px;
+	}
+	
+	.ranges input{
+		width: 100%;
+		margin-top: 20px;
+	}
+	
+	.ranges-group{
+		height: 50%;
+		margin-top: 30%;
+	}
+	
+	.values{
+		height: 100%;
+		width: 23%;
+		float: right;
+	}
+	
+	.values input{
+		width: 70%;
+		margin-top: 12px;
+		margin-left: 10px;
+		padding-left: 10px;
+	}
+	
+	.values-group{
+		height: 50%;
+		margin-top: 56%;
+	}
+
+	.box2{
+		margin-top: 70px;
+		width: 100%;
+	}
+
+} 

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body{
+  background-color: #e8e8eb;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.box{
+  margin-top: 100px;
+  background-color: white;
+  height: 300px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+.box2{
+  margin-top: 30px;
+  height: 300px;
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 3em;
+}
+h1{
+  font-size: 36px;
+}
+
+h2{
+  font-size: 20px;
+  font-style: italic;
+  color: black;
+}
+
+.itens{
+  height: 100%;
+  width: 70%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: inline-block;
+}
+
+.color{
+  float: right;
+  height: 100%;
+  width: 30%;
+  background-color: black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.names{
+  height: 100%;
+  width: 32%;
+  float: left;
+  margin-left: 10px;
+}
+
+.names-group{
+  height: 50%;
+  margin-top: 45.5%;
+}
+
+.names p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.ranges{
+  height: 100%;
+  width: 40%;
+  float: left;
+  margin-left: 10px;
+}
+
+.ranges input{
+  width: 100%;
+  margin-top: 20px;
+}
+
+.ranges-group{
+  height: 50%;
+  margin-top: 30%;
+}
+
+.values{
+  height: 100%;
+  width: 23%;
+  float: right;
+}
+
+.values input{
+  width: 70%;
+  margin-top: 12px;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+
+.values-group{
+  height: 50%;
+  margin-top: 56%;
+}
